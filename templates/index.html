@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Set the character set to UTF-8 -->
     <meta charset="UTF-8">
+    <!-- Ensure proper rendering and compatibility with IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Set the viewport for responsive design -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Set the title of the web page -->
     <title>Stock Analysis</title>
+    <!-- Link to the external stylesheet (style.css) -->
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
+    <!-- Container for the main content of the web page -->
     <div id="app"></div>
+    <!-- Include the external JavaScript file (main.js) -->
     <script src="{{ url_for('static', filename='js/main.js') }}"></script>
 </body>
 </html>
